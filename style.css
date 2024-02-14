@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+background-color: rgb(219, 183, 183);
+}
+*{
+margin: 0;
+padding: 0;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+nav{
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 69px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+.brand img{
+    width: 64px;
+    padding: 0px 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-weight: 1.3rem;
+}
+.container{
+    min-height: 56vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: 23px auto;
+    border-radius: 12px solid black;
+    padding: 34px;
+    background-image: url("./bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 24px;
+}
+#myProgressbar{
+width: 80vw;
+cursor: pointer;
+}
+.songItem{
+    height: 56px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 56px;
+    margin: 0px 10px;
+    border-radius: 34px;
+}
+.timestamp{
+   margin: 0px 32px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songsItemcontainer{
+    margin-top: 34px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+opacity: 0;
+transition: opacity 0.4s ease-in;
+}
